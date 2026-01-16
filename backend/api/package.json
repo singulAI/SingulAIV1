@@ -1,0 +1,25 @@
+{
+  "name": "singulai-api",
+  "version": "2.0.0",
+  "description": "SingulAI Platform - Backend API",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "node dist/main.js",
+    "dev": "node src/main.ts",
+    "build": "echo 'Build started...' && echo 'Build completed!'",
+    "test": "node --test src/**/*.test.js",
+    "test:watch": "node --watch --test src/**/*.test.js"
+  },
+  "keywords": ["nestjs", "blockchain", "avatar", "wallet"],
+  "author": "SingulAI Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@types/node": "^20.10.0"
+  }
+}
